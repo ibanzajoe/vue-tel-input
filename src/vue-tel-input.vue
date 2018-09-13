@@ -31,6 +31,7 @@
       </ul>
     </div>
     <input ref="input"
+           class="input"
            v-model="phone"
            type="tel"
            :placeholder="placeholder"
