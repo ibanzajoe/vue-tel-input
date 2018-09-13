@@ -39,7 +39,7 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.3.0",
     "eslint-plugin-import": "^2.7.0",
-    "poi": "^9.4.3",
+    "poi": "^10.2.10",
     "serve": "^6.3.1"
   }
 }
