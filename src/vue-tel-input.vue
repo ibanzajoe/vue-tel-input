@@ -31,7 +31,7 @@
       </ul>
     </div>
     <input ref="input"
-           class="input"
+           :class="inputClass"
            v-model="phone"
            type="tel"
            :placeholder="placeholder"
@@ -177,6 +177,10 @@ export default {
       type: String,
       default: '',
     },
+    inputClass: {
+      type: String,
+      default: ''
+    }
   },
   mounted() {
     this.initializeCountry();
